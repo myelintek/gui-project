@@ -1,0 +1,65 @@
+{
+    "checkpoints": [
+        {
+            "id": "e1c2565b51e9",
+            "name": "Faster R-CNN w/COCO",
+            "description": "Base Faster R-CNN model trained with the full COCO dataset.",
+            "dataset": {
+                "name": "COCO",
+                "num_classes": 80
+            },
+            "model": "fasterrcnn",
+            "luminoth_version": "v0.1.1",
+            "framework": "luminoth",
+            "alias": "accurate",
+            "created_at": "2018-04-17T16:58:00.658815",
+            "url": "https://github.com/tryolabs/luminoth/releases/download/v0.1.0/e1c2565b51e9.tar"
+        },
+        {
+            "id": "aad6912e94d9",
+            "name": "SSD w/Pascal VOC",
+            "description": "Base SSD model trained with the full Pascal dataset.",
+            "dataset": {
+                "name": "Pascal VOC",
+                "num_classes": 20
+            },
+            "model": "ssd",
+            "luminoth_version": "v0.1.1",
+            "framework": "luminoth",
+            "alias": "fast",
+            "created_at": "2018-04-12T17:42:01.598779",
+            "url": "https://github.com/tryolabs/luminoth/releases/download/v0.1.0/aad6912e94d9.tar"
+        },
+        {
+            "id": "829766922537",
+            "name": "DenseNet121 w/ChestXray14",
+            "description": "Base DenseNet121 model for multi-label classification trained with the ChestXray14 dataset.",
+            "dataset": {
+                "name": "ChestXray14",
+                "num_classes": 8
+            },
+            "model": "DenseNet121",
+            "luminoth_version": "v0.0.1",
+            "framework": "pytorch",
+            "alias": "chestxray",
+            "created_at": "2019-03-06T13:00:01.000000",
+            "url": "http://localhost/static/checkpoints/829766922537.tar",
+            "url2": "https://github.com/thtang/CheXNet-with-localization/raw/master/thresholds.npy"
+        },
+        {
+            "id": "1538687370",
+            "name": "RestNet50 fp32 ImageNet",
+            "description": "Image classification model training restnet50 with ImageNet dataset",
+            "dataset": {
+                "name": "ImageNet",
+                "num_classes": 1001
+            },
+            "model": "RestNet50ImageNet",
+            "luminoth_version": "v0.0.1",
+            "framework": "tf_saved_model",
+            "alias": "restnet_Image",
+            "created_at": "2019-03-06T13:00:01.000000",
+            "url": "http://localhost/static/checkpoints/1538687370.tar"
+        }
+    ]
+}
