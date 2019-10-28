@@ -27,6 +27,7 @@ import flags
 
 flags.DEFINE_string('network_dir', None, 'network file path.')
 flags.DEFINE_string('network', 'network.py', 'network file name')
+flags.DEFINE_string('data_dir', None, 'dataset location')
 flags.DEFINE_integer('small_chunk', 1, 'accumulate gradients.')
 flags.DEFINE_string('memory_saving_method', None,
                     'setup the memory saving method, 1. recomputing 2. TBD ')
